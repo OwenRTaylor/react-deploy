@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.566c2be5.css",
-    "main.js": "/react-deploy/static/js/main.8bf90855.js",
+    "main.js": "/react-deploy/static/js/main.0db97afe.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-deploy/static/js/787.a2cb61a6.chunk.js",
     "static/media/5.png": "/react-deploy/static/media/5.24d8c712071a487cb65a.png",
     "static/media/ScreenShot.png": "/react-deploy/static/media/ScreenShot.43db08fccbfbbe701481.png",
@@ -13,11 +13,11 @@
     "static/media/ProfilePic.png": "/react-deploy/static/media/ProfilePic.bff8e2a64893b6b22140.png",
     "index.html": "/react-deploy/index.html",
     "main.566c2be5.css.map": "/react-deploy/static/css/main.566c2be5.css.map",
-    "main.8bf90855.js.map": "/react-deploy/static/js/main.8bf90855.js.map",
+    "main.0db97afe.js.map": "/react-deploy/static/js/main.0db97afe.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-deploy/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.566c2be5.css",
-    "static/js/main.8bf90855.js"
+    "static/js/main.0db97afe.js"
   ]
 }
