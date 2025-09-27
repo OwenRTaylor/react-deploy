@@ -1,62 +1,61 @@
-*{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+* {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: calc(30px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: calc(30px + 2vmin);
+	color: white;
 }
 
 .nav-list {
-  font-size: 30px;
+	font-size: 30px;
 }
 .About-header {
-  background-color: wheat;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(18px + 2vmin);
-  color: #282c34;
+	background-color: wheat;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(18px + 2vmin);
+	color: #282c34;
 }
 
 .About-img {
-  min-width: 200px;
-  max-height: 200px;
+	min-width: 200px;
+	max-height: 200px;
 }
 
 .About-description {
-  font-size: 20px;
-  padding: 0 200px 0 200px;
+	font-size: 20px;
+	padding: 0 200px 0 200px;
 }
 
-.portfolio{
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: space-evenly; */
-  
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-evenly; */
 }
-.project-img{
-  min-width: 250px;
-  min-height: 250px;
-  max-width: 250px;
-  max-height: 250px;
-  margin: 100px;
-  margin-bottom: 10px;
-  position: relative;
-  text-align: center;
+.project-img {
+	min-width: 250px;
+	min-height: 250px;
+	max-width: 250px;
+	max-height: 250px;
+	margin: 100px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
 }
 
 /* .project-text{
@@ -64,44 +63,96 @@
   margin: -240px 0 0 140px;
 } */
 
-.navActive{
-  background-color: black;
+.navActive {
+	background-color: black;
 }
 
-.resume{
-  text-align: left;
+.resume {
+	text-align: left;
 }
 .resume ul {
-  font-size: 30px;
-  padding-left: 10px;
+	font-size: 30px;
+	padding-left: 10px;
 }
 
 .resume li {
-  font-size: 20px;
+	font-size: 20px;
 }
 
-.App-footer{
-  background-color: grey;
-  min-height: 12vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 200px;
-
+.App-footer {
+	background-color: grey;
+	min-height: 12vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 200px;
 }
 
-.footer-img{
-  max-height: 50px;
-  max-width: 50px;
+.footer-img {
+	max-height: 50px;
+	max-width: 50px;
 }
 
 @media screen and (max-width: 875px) {
-  
-  .portfolio{
-    justify-content: center;
-  }
-  .project-img{
-    max-width: 100px;
-    max-height: 100px;
-  }
+	.portfolio {
+		justify-content: center;
+	}
+	.project-img {
+		max-width: 100px;
+		max-height: 100px;
+	}
+}
+/* Add these styles to your existing App.css */
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.header-content h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+
+/* Responsive header */
+@media (max-width: 768px) {
+	.header-content {
+		flex-direction: column;
+		gap: 1rem;
+		text-align: center;
+	}
+
+	.header-content h1 {
+		font-size: 1.5rem;
+	}
+}
+
+/* Alternative: Place install button in nav area */
+.nav-with-install {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-with-install nav {
+	flex-grow: 1;
+}
+
+/* Alternative: Floating install button */
+.floating-install {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+}
+
+@media (max-width: 768px) {
+	.floating-install {
+		bottom: 80px; /* Above footer on mobile */
+		right: 15px;
+	}
 }
